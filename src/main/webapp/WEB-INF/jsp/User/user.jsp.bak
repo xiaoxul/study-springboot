@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+ pageEncoding="UTF-8" isELIgnored="false"%>
+ 
+<div style="margin:0px auto; width:500px">
+ 
+<form action="save" method="post"> 
+    <table>        <tr>
+
+            <td>W3ID：</td>
+            <td><input name="UserID"></td>
+        </tr>
+        <tr>
+            <td>RoleID：</td>
+            <td><input name="RoleCode"></td>
+        </tr>
+        <tr>
+            <td>社員名：</td>
+            <td><input name="UserName"></td>
+        </tr>
+		 <tr>
+            <td>備考：</td>
+            <td><input name="COMMENT"></td>
+        </tr>
+		 <tr>
+            <td>作成日時：</td>
+            <td><input name="CREATE_TIMESTAMP"></td>
+        </tr>
+		<tr>
+            <td>最終更新日時：</td>
+            <td><input name="UPDATE_TIMESTAMP"></td>
+        </tr>
+		<tr>
+            <td>作成者：</td>
+            <td><input name="CREATE_USER"></td>
+        </tr>
+        <tr>
+            <td>
+              <button type="submit" style= "color:#000000;background-color:#F08080">SUBMIT</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</div>

@@ -1,0 +1,68 @@
+
+.mobile-nav-chooser {
+    padding: 10px 30px;
+    -webkit-transition: width 2s;
+    cursor: pointer;
+}
+.nav-indent a, .nav-indent {
+	padding: 10px 20px !important;
+}
+.nav-home a, .nav-home {
+	font-size: .81579rem !important;
+    letter-spacing: .02632rem !important;
+    font-weight: 500 !important;
+}
+.ds-side-nav .nav-sub {
+	font-size: .81579rem !important;
+    letter-spacing: .02632rem !important;
+    font-weight: 500 !important;
+	padding: 10px 40px !important;
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+.ds-side-nav .nav-home a {
+	font-weight: 500 !important;
+	padding: 10px 20px;
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+.ds-side-nav .nav-link a.router-link-exact-active {
+	background-color: #edf3f7;
+	border-left: 5px solid #00598a;
+}
+.nav-indent {
+	margin-left: 20px;
+}
+.mobile-nav {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.desktop-nav .ds-side-nav {
+	padding-right: 10px;
+}
+.ds-side-nav .ds-nav-item a {
+	width: 100%;
+	display: block;
+	margin-bottom: 0;
+}
+@media only screen and (max-width: 778px) {
+.mobile-nav {
+ 		display: block;
+}
+.desktop-nav {
+ 		display: none;
+}
+.ds-side-nav {
+ 		border-right: none;
+}
+}
+@media screen and (min-width: 779px) {
+.mobile-nav {
+		display: none;
+}
+.desktop-nav {
+		display: block;
+}
+}

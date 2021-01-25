@@ -1,0 +1,362 @@
+{"properties": [
+  {
+    "name": "security.oauth2.client.client-id",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.client-id'"
+  },
+  {
+    "name": "security.oauth2.client.user-authorization-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.user-authorization-uri'"
+  },
+  {
+    "name": "security.oauth2.client.client-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.client-secret'"
+  },
+  {
+    "name": "security.oauth2.client.access-token-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.access-token-uri'"
+  },
+  {
+    "name": "security.oauth2.resource.jwt.key-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.resource.jwt.key-uri'"
+  },
+  {
+    "name": "server.keyStore.id",
+    "type": "java.lang.String",
+    "description": "A description for 'server.keyStore.id'"
+  },
+  {
+    "name": "server.keyStore.password",
+    "type": "java.lang.String",
+    "description": "A description for 'server.keyStore.password'"
+  },
+  {
+    "name": "server.openidConnectClient.id",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.id'"
+  },
+  {
+    "name": "server.openidConnectClient.clientId",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.clientId'"
+  },
+  {
+    "name": "server.openidConnectClient.clientSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.clientSecret'"
+  },
+  {
+    "name": "server.openidConnectClient.authorizationEndpointUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.authorizationEndpointUrl'"
+  },
+  {
+    "name": "server.openidConnectClient.tokenEndpointUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.tokenEndpointUrl'"
+  },
+  {
+    "name": "server.openidConnectClient.issuerIdentifier",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.issuerIdentifier'"
+  },
+  {
+    "name": "server.openidConnectClient.uniqueUserIdentifier",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.uniqueUserIdentifier'"
+  },
+  {
+    "name": "server.openidConnectClient.userIdentityToCreateSubject",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.userIdentityToCreateSubject'"
+  },
+  {
+    "name": "server.openidConnectClient.httpsRequired",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.httpsRequired'"
+  },
+  {
+    "name": "server.openidConnectClient.scope",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.scope'"
+  },
+  {
+    "name": "server.openidConnectClient.signatureAlgorithm",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.signatureAlgorithm'"
+  },
+  {
+    "name": "server.openidConnectClient.spHostAndPort",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.spHostAndPort'"
+  },
+  {
+    "name": "server.openidConnectClient.trustStoreRef",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.trustStoreRef'"
+  },
+  {
+    "name": "server.openidConnectClient.trustAliasName",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.trustAliasName'"
+  },
+  {
+    "name": "server.openidConnectClient.scope",
+    "type": "java.lang.String",
+    "description": "A description for 'server.openidConnectClient.scope'"
+  },
+  {
+    "name": "client.clientId",
+    "type": "java.lang.String",
+    "description": "A description for 'client.clientId'"
+  },
+  {
+    "name": "client.client-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'client.client-secret'"
+  },
+  {
+    "name": "client.access-token-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'client.access-token-uri'"
+  },
+  {
+    "name": "client.-authorization -endpoint",
+    "type": "java.lang.String",
+    "description": "A description for 'client.-authorization -endpoint'"
+  },
+  {
+    "name": "client.user-authorization-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'client.user-authorization-uri'"
+  },
+  {
+    "name": "client.user-jwks-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'client.user-jwks-uri'"
+  },
+  {
+    "name": "client.token-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'client.token-endpoint-url'"
+  },
+  {
+    "name": "client.authorize-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'client.authorize-endpoint-url'"
+  },
+  {
+    "name": "client.jwk-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'client.jwk-endpoint-url'"
+  },
+  {
+    "name": "client.issuer-identifier",
+    "type": "java.lang.String",
+    "description": "A description for 'client.issuer-identifier'"
+  },
+  {
+    "name": "client.scope",
+    "type": "java.lang.String",
+    "description": "A description for 'client.scope'"
+  },
+  {
+    "name": "client.signature-aLgorithm",
+    "type": "java.lang.String",
+    "description": "A description for 'client.signature-aLgorithm'"
+  },
+  {
+    "name": "client.redirect-to-rPHost-port",
+    "type": "java.lang.String",
+    "description": "A description for 'client.redirect-to-rPHost-port'"
+  },
+  {
+    "name": "security.oauth2.client.token-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.token-endpoint-url'"
+  },
+  {
+    "name": "security.oauth2.client.authorize-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.authorize-endpoint-url'"
+  },
+  {
+    "name": "security.oauth2.client.jwk-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.jwk-endpoint-url'"
+  },
+  {
+    "name": "security.oauth2.client.issuer-identifier",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.issuer-identifier'"
+  },
+  {
+    "name": "security.oauth2.client.redirect-to-rPHost-port",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.redirect-to-rPHost-port'"
+  },
+  {
+    "name": "security.oauth2.client.scope",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.scope'"
+  },
+  {
+    "name": "security.oauth2.client.signature-aLgorithm",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.client.signature-aLgorithm'"
+  },
+  {
+    "name": "security.oauth2.resource.user-info-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'security.oauth2.resource.user-info-uri'"
+  },
+  {
+    "name": "enabled.oauth2.client.client-id",
+    "type": "java.lang.String",
+    "description": "A description for 'enabled.oauth2.client.client-id'"
+  },
+  {
+    "name": "basic",
+    "type": "java.lang.String",
+    "description": "A description for 'basic'"
+  },
+  {
+    "name": "spring.security.basic.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.basic.enabled'"
+  },
+  {
+    "name": "spring.security.oauth2.client.client-id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.client-id'"
+  },
+  {
+    "name": "spring.security.oauth2.client.client-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.client-secret'"
+  },
+  {
+    "name": "spring.security.oauth2.client.access-token-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.access-token-uri'"
+  },
+  {
+    "name": "spring.security.oauth2.client.user-authorization-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.user-authorization-uri'"
+  },
+  {
+    "name": "spring.security.oauth2.client.token-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.token-endpoint-url'"
+  },
+  {
+    "name": "spring.security.oauth2.client.authorize-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.authorize-endpoint-url'"
+  },
+  {
+    "name": "spring.security.oauth2.client.jwk-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.jwk-endpoint-url'"
+  },
+  {
+    "name": "spring.security.oauth2.client.issuer-identifier",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.issuer-identifier'"
+  },
+  {
+    "name": "spring.security.oauth2.client.scope",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.scope'"
+  },
+  {
+    "name": "spring.security.oauth2.client.signature-aLgorithm",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.signature-aLgorithm'"
+  },
+  {
+    "name": "spring.security.oauth2.client.redirect-to-rPHost-port",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.client.redirect-to-rPHost-port'"
+  },
+  {
+    "name": "spring.security.oauth2.resource.user-info-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.oauth2.resource.user-info-uri'"
+  },
+  {
+    "name": "ibm.client-id",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.client-id'"
+  },
+  {
+    "name": "ibm.client-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.client-secret'"
+  },
+  {
+    "name": "ibm.access-token-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.access-token-uri'"
+  },
+  {
+    "name": "ibm.user-authorization-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.user-authorization-uri'"
+  },
+  {
+    "name": "ibm.user-info-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.user-info-uri'"
+  },
+  {
+    "name": "ibm.redirect-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.redirect-uri'"
+  },
+  {
+    "name": "ibm.token-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.token-endpoint-url'"
+  },
+  {
+    "name": "ibm.authorize-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.authorize-endpoint-url'"
+  },
+  {
+    "name": "ibm.jwk-endpoint-url",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.jwk-endpoint-url'"
+  },
+  {
+    "name": "ibm.scope",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.scope'"
+  },
+  {
+    "name": "ibm.signature-aLgorithm",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.signature-aLgorithm'"
+  },
+  {
+    "name": "issuer",
+    "type": "java.lang.String",
+    "description": "A description for 'issuer'"
+  },
+  {
+    "name": "ibm.introspection-uri",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.introspection-uri'"
+  },
+  {
+    "name": "ibm.issuer",
+    "type": "java.lang.String",
+    "description": "A description for 'ibm.issuer'"
+  }
+]}

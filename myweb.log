@@ -1,0 +1,7 @@
+2020-09-28 16:17:57.724  INFO 22056 --- [main] c.e.Oiobamademo.DemoApplicationTests     : Starting DemoApplicationTests on LAPTOP-UEPF2ON3 with PID 22056 (started by XiaoXuLiu in C:\Users\XiaoXuLiu\git\oiobama-server\master)
+2020-09-28 16:17:57.743  INFO 22056 --- [main] c.e.Oiobamademo.DemoApplicationTests     : No active profile set, falling back to default profiles: default
+2020-09-28 16:18:00.327  INFO 22056 --- [main] org.ehcache.core.EhcacheManager          : Cache 'verifyParametersCache' created in EhcacheManager.
+2020-09-28 16:18:01.592  INFO 22056 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 16:18:01.805  INFO 22056 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-28 16:18:03.303  INFO 22056 --- [main] c.e.Oiobamademo.DemoApplicationTests     : Started DemoApplicationTests in 6.627 seconds (JVM running for 8.61)
+2020-09-28 16:18:03.951  INFO 22056 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

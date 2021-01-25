@@ -1,0 +1,51 @@
+server:
+ port: 8081
+# servlet:
+#    context-path: /auth
+# ssl:
+#    enabled: true
+#    key-alias: server_cert
+#    key-store: classpath:server.keystore
+#    key-store-type: jks
+#    key-store-password: 87654321
+
+spring:
+      mvc:
+          view:
+            prefix: /WEB-INF/jsp/
+            suffix: .jsp
+      main:
+        allow-bean-definition-overriding: true
+      
+ #     datasource:
+ #         
+ #        url:jdbc:db2://dashdb-txn-flex-yp-dal13-134.services.dal.bluemix.net:50000/BLUDB
+ #         username:${db2_user:root}
+ #        password:${db2_pass:root}
+ #         driver-class-name:com.ibm.db2.jcc.DB2Driver
+#        
+#      security:
+#        basic:
+#           enabled: true
+
+
+#spring.datasource.driver-class-name=com.ibm.db2.jcc.DB2Driver
+#spring.datasource.url=jdbc:db2://dashdb-txn-flex-yp-dal13-189.services.dal.bluemix.net:50000/Db2-OIO-DEV
+#spring.datasource.username=${db2_user:root}
+#spring.datasource.password=${db2_pass:root}
+ibm:
+  clientId: M2MwMTZlNTMtZThlYS00
+  clientSecret: N2RiOTc1NTItNDU4NC00
+  accessTokenUri: https://w3id.alpha.sso.ibm.com/isam/oidc/endpoint/amapp-runtime-oidcidp/token
+  userAuthorizationUri: https://w3id.alpha.sso.ibm.com/isam/oidc/endpoint/amapp-runtime-oidcidp/authorize
+  introspectionUri: https://w3id.alpha.sso.ibm.com/isam/oidc/endpoint/amapp-runtime-oidcidp/introspect
+  #redirectUri: https://testoio.dal1a.ciocloud.nonprod.intranet.ibm.com/oidc_callback
+  redirectUri: https://testoio.dal1a.ciocloud.nonprod.intranet.ibm.com
+  issuer: https://w3id.alpha.sso.ibm.com/isam
+
+     
+logging:
+    file: myweb.log
+      
+      
+      
